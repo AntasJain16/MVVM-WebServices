@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyMVVM</string>
+    <string name="there_is_no_item">There is no item!</string>
+</resources>
