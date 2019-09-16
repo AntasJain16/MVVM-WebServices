@@ -10,12 +10,8 @@ import static com.cs.mymvvm.Constants.URL;
 
 public class MovieService {
 
-
-
     private MovieApi mMovieApi;
-
     private static MovieService instance;
-
 
     public static MovieService getInstance() {
         if (instance == null) {
