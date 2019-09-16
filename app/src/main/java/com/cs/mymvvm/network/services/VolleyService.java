@@ -38,7 +38,8 @@ public class VolleyService {
     public void jsoncall(final Context context) {
 
         viewModel.setIsLoading(true);
-        JsonObjectRequest objectRequest = new JsonObjectRequest(Request.Method.GET, Constants.URL + "movies/", null, new Response.Listener<JSONObject>() {
+        JsonObjectRequest objectRequest = new JsonObjectRequest(Request.Method.GET, Constants.URL + "movies/", null, 
+                                                                new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject response) {
